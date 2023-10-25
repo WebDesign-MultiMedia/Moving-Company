@@ -1,0 +1,124 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+      background: rgb(139, 139, 139);
+      background-image: url(/valuing-a-moving-company.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+    }
+  .Nav {
+    z-index: 1;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    left: 200px;
+
+  }
+  .Nav summary{
+    color: red;
+    font-size: 1.4em;
+  }
+  
+  
+    .info-body {
+      position: relative;
+      top: 4em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 2.6em;
+
+    }
+  
+    .Services {
+      color: white;
+      text-align: center;
+    }
+  
+    .Services h2 {
+      font-size: 2.5em;
+    }
+    .Services ol li {
+      list-style-type: none;
+      color: blue;
+      padding: 0.5em;
+    }
+  
+    .Moving-Location-services {
+      text-align: center;
+      padding-bottom: 80px;
+    }
+    .Moving-Location-services h2 {
+      font-size: 2em;
+      color: white;
+    }
+    .Moving-Location-services p {
+      color: blue;
+      font-weight: bolder;
+    }
+  
+    .Contact-Location {
+      text-align: center;
+      padding-bottom: 120px;
+    }
+    .Contact-Location a {
+      display: block;
+      padding: 10px;
+    }
+    .Contact-Location h2 {
+      font-size: 2.3em;
+      color: white;
+    }
+  
+    footer {
+      color: green;
+      display: inline;
+      left: 0;
+      right: 0;
+      height: 12%;
+      position: absolute;
+      background-color: aqua;
+    }
+    footer ol li {
+      color: blue;
+      list-style-type: none;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {
+      background: green;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) 
+    @media only screen and (min-width: 768px) {
+      body {background: blue;}
+    } */
+  
+  /* Large devices (laptops/desktops, 992px and up) 
+    @media only screen and (min-width: 992px) {
+      body {background: orange;}
+    } */
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+      body {background: pink;}
+      
+      .Nav{
+        display: ;
+        color: white;
+      }
+      
+      
+      
+    } 
+  
