@@ -1,22 +1,21 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body {
-      background: rgb(139, 139, 139);
-      background-image: url(valuing-a-moving-company.jpg);
+      background: rgb(242, 238, 238);
+      background-image: url(/PAGE-1-1-1-1.png);
       background-size: contain;
       background-repeat: no-repeat;
-      
+      top: 150px;
+      position: relative;
     }
   .Nav {
     z-index: 1;
     display: flex;
     justify-content: end;
     position: fixed;
-    left: 200px;
-
   }
   .Nav summary{
-    color: red;
+    color: rgb(43, 11, 223);
     font-size: 1.4em;
   }
   
@@ -30,16 +29,20 @@
       align-items: center;
     }
     h1 {
-      display: flex;
+      display: inline-flex;
       justify-content: center;
       text-align: center;
       font-size: 2.6em;
       padding-bottom: 200px;
+
     }
   
+    /* SERVICES */
     .Services {
-      color: white;
+      color: rgb(4, 24, 244);
       text-align: center;
+     position: relative;
+     padding-bottom: 200px;
     }
   
     .Services h2 {
@@ -47,17 +50,30 @@
     }
     .Services ol li {
       list-style-type: none;
-      color: blue;
+      color: rgb(0, 0, 0);
       padding: 0.5em;
+      text-align: left;
     }
-  
+    .Services{
+      background-image: url(/Group-113.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 30px;
+      background-position-x: 1px;
+      
+    }
+ 
+
+    /* LOCATION SERVICES */
     .Moving-Location-services {
       text-align: center;
       padding-bottom: 80px;
+      position: relative;
+      padding-bottom: 200px;
     }
     .Moving-Location-services h2 {
       font-size: 2em;
-      color: white;
+      color: rgb(4, 24, 244);
     }
     .Moving-Location-services p {
       color: blue;
@@ -67,6 +83,7 @@
     .Contact-Location {
       text-align: center;
       padding-bottom: 120px;
+  
     }
     .Contact-Location a {
       display: block;
@@ -74,7 +91,7 @@
     }
     .Contact-Location h2 {
       font-size: 2.3em;
-      color: white;
+      color: rgb(4, 24, 244);
     }
   
     footer {
@@ -82,9 +99,9 @@
       display: inline;
       left: 0;
       right: 0;
-      height: 12%;
+      height: 7%;
       position: absolute;
-      background-color: aqua;
+      background-color: rgb(226, 212, 25);
     }
     footer ol li {
       color: blue;
@@ -114,7 +131,6 @@
       body {background: pink;}
       
       .Nav{
-        display: ;
         color: white;
       }
       
