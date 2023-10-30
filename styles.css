@@ -1,18 +1,28 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body {
-      background: rgb(242, 238, 238);
-      background-image: url(/PAGE-1-1-1-1.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      top: 150px;
-      position: relative;
-    }
+
+  .img-back{
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
   .Nav {
     z-index: 1;
     display: flex;
     justify-content: end;
     position: fixed;
+    top: 150px;
   }
   .Nav summary{
     color: rgb(43, 11, 223);
