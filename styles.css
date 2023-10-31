@@ -24,9 +24,22 @@
     position: fixed;
     top: 150px;
   }
+
   .Nav summary{
+    font-size: 1.5em;    
     color: rgb(43, 11, 223);
+
+  }
+  details a{
     font-size: 1.4em;
+    text-decoration: none;
+    color: ;    
+  }
+  .Nav a:hover{
+    color: red;
+    border: 1px solid red;
+    border-bottom: none;
+    border-top: none;
   }
   
   
@@ -53,11 +66,14 @@
       text-align: center;
      position: relative;
      padding-bottom: 200px;
+  
     }
   
     .Services h2 {
       font-size: 3em;
-      text-shadow: 2px 2px 2px white;
+      text-shadow: 2px 2px 2px rgb(247, 247, 247);
+      position: relative;
+      z-index: 1;
     }
     .Services ol li {
       list-style-type: none;
@@ -66,9 +82,16 @@
       text-align: left;
       font-size: 1.2em;
       font-weight: bolder;
-      background-color: rgba(20, 0, 198, 0.075);
+      background-color: rgba(20, 0, 198, 0.086);
+
     }
    
+    #center{
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
     .img-back-2{
       width: 100%;
       height: auto;
@@ -76,7 +99,7 @@
       z-index: -1;
       display: flex;
       top: -20px;
-
+      z-index: 1;
     }
 
     /* LOCATION SERVICES */
@@ -85,27 +108,27 @@
       padding-bottom: 80px;
       position: relative;
       padding-bottom: 200px;
+      top: 100px;
     }
     .Moving-Location-services h2 {
-      font-size: 2em;
-      color: rgb(11, 13, 179);
-      text-shadow: 2px 2px 2px rgb(255, 255, 255);
+      font-size: 2.5em;
+      color: rgb(7, 37, 208);
       font-weight: bold;
     }
     .Moving-Location-services p {
-      color: rgb(250, 250, 250);
+      color: rgb(0, 0, 0);
       font-weight: bolder;
-      background-color: rgba(128, 128, 128, 0.601);
-      
+      font-size: 1.3em;
+      position: relative;
     }
 
     .img-back-3{
-      width: 100%;
+      width: 70%;
       height: auto;
       position: absolute;
       z-index: -1;
       display: flex;
-      bottom: 30em;
+      bottom: 34em;
     }
 
 
@@ -124,6 +147,15 @@
     .Contact-Location h2 {
       font-size: 2.3em;
       color: rgb(4, 24, 244);
+    }
+
+    .img-back-4{
+      height: auto;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      display: flex;
+      left: 0;
     }
   
     footer {
