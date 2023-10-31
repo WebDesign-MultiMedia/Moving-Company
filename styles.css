@@ -215,7 +215,131 @@
     body {
       background: green;
     }
+    .img-back{
+      position: relative;
+      height: auto;
+      width: 100%;
+    }
+
+.Nav{
+  display: none;
+}
+
+.SD-Nav{
+  text-align: right;
+  background-color: gray;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  z-index: 1;
+  
+}
+ul li{ 
+   position: relative;
+display: inline-flex;
+justify-content: space-evenly;
+top: -15px;
+font-size: 1.5em;
+
+}
+
+ul li a{
+  color: red;
+  text-decoration: none;
+  margin: 20px;
+}
+
+/*  */
+.img-back{
+  position: relative;
+  top: 100px;
+}
+h1{
+  display: none;
+}
+.h1{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 650px;
+ font-size: 5em;
+ transform:rotate(-330deg);
+ color: rgb(219, 159, 49);
+
+}
+
+/* TOP */
+.img-back-2{
+position: relative;
+top: 200px;
+}
+
+.info-body h2{
+  color: red;
+  position: relative;
+  bottom: 110px;
+  padding-left: 100px;
+  margin-left: 10px;
+  font-size: 3.2em;
+  transform:rotate(-330deg);
+
+}
+
+.info-body ol li{
+  color: rgb(50, 0, 250);
+  list-style-type: none;
+  position: relative;
+  bottom: 300px;
+  font-size: 2.5em;
+  text-align: center;
+  padding-left: 500px;
+}
+
+
+/* MIDDLE*/
+.img-back-3{
+  float: right;
+  position: relative;
+  padding-bottom: 500px;
+}
+
+.Moving-Location-services h2{
+  position: relative;
+  color: blue;
+  transform: none;
+  top: 100px;
+}
+
+  .Moving-Location-services p{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 200px;
   }
+
+.img-back-4{
+  position: relative;
+  width:50%;
+  height: auto;
+}
+
+/*END */
+.img-back-4{
+  width: 50%;
+  height: auto;
+  position: relative;
+  
+}
+
+}
+
+
+
+    
+  
   
   /* Medium devices (landscape tablets, 768px and up) 
     @media only screen and (min-width: 768px) {
