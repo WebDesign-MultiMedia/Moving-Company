@@ -1,365 +1,222 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .img-back{
+
+  /* NAV*/
+.Nav{
+    position: fixed;
+    z-index: 1;
+}
+
+.Nav summary{
+    color: red;
+    font-size: 1.4em;
+}
+.Nav summary:hover{
+    color: rgb(0, 26, 255);
+}
+
+.Nav details{
+
+}
+
+
+
+
+.Nav a{
     position: relative;
+    background-color: rgb(25, 71, 238);
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.Nav  a:hover{
+    color: red;
+}
+
+
+
+/* TOP*/
+  .top-info{
+    border-radius: 300px;
+    position: relative;
+    margin-bottom: 200px;    
+    top: 50px;
+}
+
+.img-logo img{
     height: auto;
     width: 100%;
-  }
+}
 
+/* Second */
 
-
-
-
-
-
-
-
-
-
-  .Nav {
+.Service-sec{
+    position: relative;
+    top: 100px;
+}
+.img2 img{
+    height: auto;
+    width: 100%;
+    position: absolute;
     z-index: 1;
-    display: flex;
-    justify-content: end;
-    position: fixed;
-    top: 150px;
-  }
-
-  .Nav summary{
-    font-size: 1.5em;    
-    color: rgb(210, 154, 34);
-    font-family: 'Bitter', serif;
-
-  }
-  details a{
-    font-size: 1.4em;
-    text-decoration: none;
-    font-family: 'Bitter', serif;
-    color: blue;
-  }
-  .Nav a:hover{
-    color: red;
-    border: 1px solid red;
-    border-bottom: none;
-    border-top: none;
-  }
-  
-  
-    .info-body {
-      position: relative;
-      top: 4em;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    h1 {
-      display: inline-flex;
-      justify-content: center;
-      text-align: center;
-      font-size: 2.6em;
-      padding-bottom: 100px;
-      font-family: 'Chakra Petch', sans-serif;
-      position: relative;
-      top: -80px;
-      color: rgb(20, 20, 195) ;
-    }
-
-  
-    /* SERVICES */
-    .Services {
-      color: rgb(4, 24, 244);
-      text-align: center;
-     position: relative;
-     padding-bottom: 200px;
-  
-    }
-  
-    .Services h2 {
-      font-size: 3.5em;
-      text-shadow: 2px 2px 2px rgb(247, 247, 247);
-      position: relative;
-      z-index: 1;
-      font-family: 'Dancing Script', cursive;
-      font-weight: bold;
-
-      
-    }
-    .Services ol li {
-      list-style-type: none;
-      color: rgb(0, 0, 0);
-      padding: 0.5em;
-      text-align: left;
-      font-size: 1.2em;
-      font-weight: bolder;
-      background-color: rgba(20, 0, 198, 0.086);
-      font-family: 'Merienda', cursive;    }
-   
-    #center{
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-
-    .img-back-2{
-      width: 100%;
-      height: auto;
-      position: absolute;
-      z-index: -1;
-      display: flex;
-      top: -20px;
-      z-index: 1;
-    }
-
-    /* LOCATION SERVICES */
-    .Moving-Location-services {
-      text-align: center;
-      position: relative;
-      padding-bottom: 200px;
-      top: 100px;
-      
-    }
-    .Moving-Location-services h2 {
-      font-size: 2.5em;
-      color: rgb(7, 37, 208);
-      font-weight: bold;
-      position: relative;
-      bottom: 100px;
-      font-family: 'Dancing Script', cursive;
-
-    }
-    .Moving-Location-services p {
-      color: rgb(4, 16, 251);
-      font-weight: bolder;
-      font-size: 1.3em;
-      position: relative;
-      top: 50px;
-      font-family: 'Merienda', cursive;
-    }
-  
-
-    .img-back-3{
-      width: 100%;
-      height: auto;
-      position: absolute;
-     display: flex;
-     bottom: 200px;
-    }
-
-
-
-    /* Contact */
-  
-    .Contact-Location {
-      position: relative;
-      color: red;
-      padding-top: 300px;
-          
-    }
-    .Contact-Location a {
-      display: block;
-      padding: 10px;
-      text-align: center;
-      color: rgba(0, 55, 255, 0.841);
-      background-color: rgba(246, 246, 246, 0.636);
-      text-decoration: none;
-      font-weight: bold;
-      font-family: 'Merienda', cursive;
-      border: 1px solid rgb(11, 38, 219);
-      border-bottom: none;
-      border-top: none;
-    }
-
-    .Contact-Location a:hover{
-      color: red;
-      text-shadow: none;
-    }
-
-
-    .Contact-Location h2 {
-      font-size: 3em;
-      text-shadow: 1px 1px 2px white;
-      color: rgb(4, 24, 244);
-      text-align: center;
-      font-family: 'Dancing Script', cursive;
-
-    }
-
-    .img-back-4{
-      height: auto;
-      width: 100%;
-      position: absolute;
-      z-index: -1;
-
-    }
-
-    /* FOOTER */
-  
-    footer {
-      color: green;
-      display: inline;
-      left: 0;
-      right: 0;
-      height: 7%;
-      position: absolute;
-      background-color: rgb(226, 212, 25);
-    }
-    footer ol li {
-      color: blue;
-      list-style-type: none;
-    }
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    body {
-      background: green;
-    }
-    .img-back{
-      position: relative;
-      height: auto;
-      width: 100%;
-    }
-
-.Nav{
-  display: none;
 }
 
-.SD-Nav{
-  text-align: right;
-  background-color: gray;
-  top: 0;
-  left: 0;
-  position: fixed;
-  width: 100%;
-  height: 7%;
-  z-index: 1;
-  
-}
-ul li{ 
-   position: relative;
-display: inline-flex;
-justify-content: space-evenly;
-top: -15px;
-font-size: 1.5em;
-
-}
-
-ul li a{
-  color: red;
-  text-decoration: none;
-  margin: 20px;
-}
-
-/*  */
-.img-back{
-  position: relative;
-  top: 100px;
-}
-h1{
-  display: none;
-}
-.h1{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 650px;
- font-size: 5em;
- transform:rotate(-330deg);
- color: rgb(219, 159, 49);
-
-}
-
-/* TOP */
-.img-back-2{
-position: relative;
-top: 200px;
-}
-
-.info-body h2{
-  color: red;
-  position: relative;
-  bottom: 110px;
-  padding-left: 100px;
-  margin-left: 10px;
-  font-size: 3.2em;
-  transform:rotate(-330deg);
-
-}
-
-.info-body ol li{
-  color: rgb(50, 0, 250);
-  list-style-type: none;
-  position: relative;
-  bottom: 300px;
-  font-size: 2.5em;
-  text-align: center;
-  padding-left: 500px;
-}
-
-
-/* MIDDLE*/
-.img-back-3{
-  float: right;
-  position: relative;
-  padding-bottom: 500px;
-}
-
-.Moving-Location-services h2{
-  position: relative;
-  color: blue;
-  transform: none;
-  top: 100px;
-}
-
-  .Moving-Location-services p{
+.Serive-heading{
     position: relative;
     text-align: center;
-    color: white;
-    top: 200px;
-  }
-
-.img-back-4{
-  position: relative;
-  width:50%;
-  height: auto;
+    font-size: 2em;
+    z-index: 1;
 }
-
-/*END */
-.img-back-4{
-  width: 50%;
-  height: auto;
-  position: relative;
-  
+.list-service{
+position: relative;
+top: 85px;
 }
-
-}
-
-
-
+.list-service ol li{
+    color: rgb(0, 26, 255);
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.142);
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 20px;
     
-  
-  
-  /* Medium devices (landscape tablets, 768px and up) 
-    @media only screen and (min-width: 768px) {
-      body {background: blue;}
-    } */
-  
-  /* Large devices (laptops/desktops, 992px and up) 
-    @media only screen and (min-width: 992px) {
-      body {background: orange;}
-    } */
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
-      body {background: pink;}
-      
-      .Nav{
-        color: white;
-      }
-      
-      
-      
-    } 
-  
+}
+
+
+/* MIDDLE */
+
+.Location-sec{
+    position: relative;
+    top: 400px;
+    margin-bottom: 200px;
+}
+
+
+.img3 img{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 80px;
+}
+
+.Location-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    position: relative;
+}
+
+.loc-cap ol li{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.142);
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(0, 26, 255);
+    list-style-type: none;
+    top: 35px;
+    font-size: 1.3em;
+    }
+
+
+}
+
+
+
+/* BOTTOM */
+
+.Contact-sec{
+    position: relative;
+    top: 500px;
+    padding-bottom: 200px;
+}
+
+.img4 img{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.Contact-heading{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+
+.Contact-sec a{
+    color: rgb(0, 26, 255);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.142);
+    text-decoration: none;
+    font-size: 1.3em;
+    position: relative;
+    top: 68px;
+}
+
+.Contact-sec a:hover{
+    color: red;
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    display: none;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    display: none;
+}} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    display: none;
+}} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    display: none;
+}}
