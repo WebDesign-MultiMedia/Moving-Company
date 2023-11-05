@@ -121,7 +121,6 @@ top: 30px;
 .loc-cap ol li{
     display: flex;
     justify-content: center;
-    position: relative;
     background-color: rgba(0, 0, 0, 0.142);
     padding: 10px;
     margin-top: 12px;
