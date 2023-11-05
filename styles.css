@@ -9,7 +9,7 @@
   }
   
   .Nav summary{
-      color: green;
+      color: yellow;
       font-size: 1.4em;
   }
   .Nav summary:hover{
@@ -156,22 +156,26 @@
       z-index: 1;
       position: relative;
   }
-  
-  .Contact-list{
+.Contact-list{
     position: relative;
-    top: 100px;
-        
+    text-align: center;
+    top: 80px;
+    margin-top: -10px;
+
 }
-  .Contact-sec a{
-      color: rgb(0, 26, 255);
-      display: flex;
-      justify-content: center;
-      padding: 15px;
-      margin-top: 10px;
-      background-color: rgba(0, 0, 0, 0.142);
-      text-decoration: none;
-      font-size: 1.3em;
-  }
+
+.Contact-list a{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.142);
+    padding: 20px;
+    margin-top: 10px;
+    color: rgb(0, 26, 255);
+    list-style-type: none;
+    font-size: 1.2em;
+
+
+}
   
   .Contact-sec a:hover{
       color: rgb(255, 255, 255);
