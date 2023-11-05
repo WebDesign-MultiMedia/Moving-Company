@@ -51,7 +51,8 @@
   .img-logo img{
       height: auto;
       width: 100%;
-  
+      position: relative;
+      top: 100px;
   }
   
   /* Second */
