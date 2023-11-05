@@ -78,16 +78,18 @@
 position: relative;
 top: 120px;
 }
-.list-service ol li{
-    color: rgb(0, 26, 255);
+.loc-cap ol li{
     display: flex;
     justify-content: center;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.142);
-    font-size: 1.2em;
     padding: 10px;
     margin-top: 20px;
-    
-}
+    color: rgb(0, 26, 255);
+    list-style-type: none;
+    top: 25px;
+    font-size: 1.3em;
+    }
 
 
 /* MIDDLE */
