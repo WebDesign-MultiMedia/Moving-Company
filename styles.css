@@ -16,9 +16,7 @@
     color: rgb(0, 26, 255);
 }
 
-.Nav details{
 
-}
 
 
 
@@ -121,10 +119,10 @@ top: 120px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.142);
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 12px;
     color: rgb(0, 26, 255);
     list-style-type: none;
-    top: 100px;
+    top: 50px;
     font-size: 1.3em;
     }
 
