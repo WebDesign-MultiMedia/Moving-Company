@@ -7,19 +7,17 @@
       position: fixed;
       z-index: 1;
   }
+ 
   
   .Nav summary{
-      color: yellow;
-      font-size: 1.4em;
+      color: rgb(0, 55, 255);
+      font-size: 2.5em;
   }
   .Nav summary:hover{
-      color: rgb(0, 26, 255);
+      color: rgb(237, 48, 48);
   }
   
-  
-  
-  
-  
+
   
   .Nav a{
       position: relative;
@@ -52,7 +50,7 @@
       height: auto;
       width: 100%;
       position: relative;
-      top: 100px;
+      top: 90px;
   }
   
   /* Second */
@@ -65,7 +63,7 @@
       height: auto;
       width: 100%;
       position: absolute;
-      z-index: 1;
+      z-index: -1;
   }
   
   .Serive-heading{
@@ -73,10 +71,12 @@
       text-align: center;
       font-size: 2em;
       z-index: 1;
+      color: rgb(231, 152, 6);
   }
   .list-service{
   position: relative;
   top: 120px;
+  z-index: 1;
   }
   .list-service ol li{
       color: rgb(0, 26, 255);
@@ -112,20 +112,23 @@
       justify-content: center;
       font-size: 2em;
       position: relative;
+      color: rgb(231, 152, 6);
+
   }
   
   .loc-cap{
     position: relative;
-    top: 3em;
+    top: 4em;
     }
   
   .loc-cap ol li{
       display: flex;
       justify-content: center;
       background-color: rgba(0, 0, 0, 0.142);
-      padding: 10px;
+        color: rgb(0, 26, 255);   
+       padding: 10px;
       margin-top: 12px;
-      color: rgb(0, 26, 255);
+  
       list-style-type: none;
       font-size: 1.3em;
       }
@@ -140,7 +143,10 @@
   .Contact-sec{
       position: relative;
       top: 500px;
-      padding-bottom: 200px;
+      background-color: rgba(128, 128, 128, 0.199);
+      height: 360px;
+      z-index: 0;
+      margin-bottom: 600px;
   }
   
   .img4 img{
@@ -153,32 +159,34 @@
   .Contact-heading{
       font-size: 2em;
       display: flex;
-      justify-content: center;
+      justify-content: left;
       z-index: 1;
+      padding-left: 0.2em;
       position: relative;
-  }
-  
-   .Contact-list{
-    position: relative;
-    top: 3.5em;
-    }
-  
-   .Contact-list a{
-      display: flex;
-      justify-content: center;
-      padding: 10px;
-      margin-top: 12px;
-      color: blue;
-      list-style-type: none;
-      font-size: 2em;
-      }
+      color: rgb(231, 152, 6);
 
+  }
+.Contact-list{
+text-align: center;
+font-size: 140%;
+position: relative;
+top:5.3em;
+
+}
+
+.Contact-list a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    border: 1px solid blue;
+    background-color: rgba(0, 32, 243, 0.516);
+    
+}
   
   .Contact-sec a:hover{
-      color: rgb(255, 255, 255);
+      color: orange;
       border: 1px solid blue;
-      background-color: rgba(0, 0, 255, 0.199);
-      text-shadow: 1px 1px 2px black;
+      background-color: rgba(0, 32, 243, 0.703);
   }
   
   
@@ -207,24 +215,189 @@
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     body {
-      display: none;
+        background-color: white;
   }
+
+/* NAV */
+.Nav{
+    position: fixed;
+    z-index: 1;
+}
+
+
+.Nav summary{
+    color: rgb(0, 55, 255);
+    font-size: 2.5em;
+}
+.Nav summary:hover{
+    color: rgb(237, 48, 48);
+}
+
+
+
+.Nav a{
+    position: relative;
+    background-color: rgb(25, 71, 238);
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.Nav  a:hover{
+    color: red;
+
+}
+
+/* TOP logo*/
+  .top-info{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -1px;
+    margin-bottom: 300px;
   }
+
+
+
+/* Service */
+
+.Service-sec{
+    display: inline-flex;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 650px;
+}
+
+.Serive-heading h2{
+    position: absolute;
+    color: rgb(231, 152, 6);
+    left: 0;
+    top: 30px;
+    margin-left: 6em;
+    margin-top: -0.5em;
+    font-size: 2.7em;
+}
+
+.list-service{
+    position: relative;
+    top: 30px;
+    font-size: 1.8em;
+}
+.list-service ol li{
+    list-style-type: none;
+    text-align: center;
+    color: rgb(0, 26, 255);  
+    border: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#sub-color-service{
+    color: orange;
+}
+
+
+.img2 img{
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-left: 20px;
+}
+
+/* MIDDLE */
+.img3  img{
+    position: absolute;
+
+}
+
+.Location-heading h2{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: rgb(231, 152, 6);
+
+}
+
+.loc-cap ol li{
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    display: inline;
+    padding: 20px;
+    top: 170px;
+    margin-left: 1px;
+  color: rgb(0, 26, 255);  
+  border: 1px solid blue;
+  border-top: none;
+  background-color: rgba(128, 128, 128, 0.194);
+}
+
+.loc-cap li{
+    font-size: 1.5em;
+}
+
+/* BOTTOM */
+.img4 img{
+    position: absolute;
+    height: auto;
+    width: 70%;
+    right: 0;
+    z-index: 0;
+}
+
+.Contact-heading h2{
+    display: flex;
+position: relative;
+left: 3em;
+color: rgb(231, 152, 6);
+
+}
+
+.Contact-list{
+    position: absolute;
+    left: 70px;
+}
+
+.Contact-list a{
+    background-color: white;
+    color: blue;
+    border: none;
+    font-size: 1.1em;
+}
+
+.Contact-list a:hover{
+    background-color: white;
+}
+
+
+
+
+
+
+
+}
+
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
-    body {
-      display: none;
-  }} 
+
+  }
+ 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    body {
-      display: none;
-  }} 
+
+} 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     body {
       display: none;
-  }}
+  }
+}
