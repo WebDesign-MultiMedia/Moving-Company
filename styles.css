@@ -215,7 +215,7 @@ top:5.3em;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     body {
-        background-color: white;
+        background-color: orange
   }
 
 /* NAV */
