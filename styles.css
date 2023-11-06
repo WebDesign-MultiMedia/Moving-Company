@@ -2,7 +2,7 @@
 @media only screen and (max-width: 600px) {
   
 
-    /* NAV*/ 
+    /* NAV*/
   .Nav{
       position: fixed;
       z-index: 9;
@@ -529,9 +529,125 @@ color: rgb(231, 152, 6);
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+    .background{
+        background-color: rgba(255, 166, 0, 0.628);
+        height: 5000px;
+    }
+
+    .Service-sec {
+        background-color: transparent;
+    }
+/* Navigation */
+.Nav {
+    position: fixed;
+    z-index: 9;
+}
+
+.Nav summary{
+    font-size: 3.5em;
+}
+
+.Nav details a{
+    font-size: 2em;
+}
+/* TOP */
+.top-info{
+    position: relative;
+    top: 150px;
+    margin-bottom: 900px;
+}
+
+.heading h2{
+    font-size: 2.8em;
+    position: relative;
+    top: -160px;
+}
+
+
+
+/* SERVICE */
+.Service-sec{
+    background-color: transparent;
+}
+
+.Service-sec ol li{
+    font-size: 6vw;
+}
+
+.Serive-heading h2{
+   color: rgb(48, 69, 230);
+ 
+}
+
+#sub-color-service{
+    color: blue;
+    text-shadow: 2px 2px 1px white;
+}
+
+
+
+/* LOCATION */
+.Location-sec{
+    background-color: transparent;
+}
+
+.Location-heading h2{
+    color: rgb(48, 69, 230);
+
+}
+
+.loc-cap ol li{
+    font-size: 3em;
+    margin: 30px;
+    padding: 3px;  
+    background-color: rgba(255, 255, 255, 0.42);
+    color: blue;
+    border: none;
+    text-shadow: none;
+    
+}
+
+
+/* CONTACT */
+
+.Contact-sec{
+    background-color: transparent;
+}
+
+.Contact-heading h2{
+    font-size: 4em;
+    left: 0;
+    top: -150px;
+    margin-left: 70px;
+    color: rgb(48, 69, 230);
+
+}
+
+.Contact-list a{
+    font-size: 5.5vw;
+    position: relative;
+    z-index: 9;
+}
+.Contact-list a:hover{
+    color: red;
+}
 
   }
  
@@ -539,11 +655,13 @@ color: rgb(231, 152, 6);
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
 
+
+
 } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     body {
-      display: none;
+      background-color: red;
   }
 }
