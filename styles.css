@@ -1,8 +1,8 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-body {
-    background: orange;
-}
+    body{
+        background-color: rgb(237, 171, 39);
+    }
 
     /* NAV*/
   .Nav{
@@ -12,18 +12,28 @@ body {
  
   
   .Nav summary{
-      color: rgb(0, 55, 255);
-      font-size: 2.5em;
+      color: rgb(31, 46, 253);
+      font-size: 2em;
+      font-family: 'Ysabeau SC', sans-serif;
   }
   .Nav summary:hover{
-      color: rgb(237, 48, 48);
+      color: rgb(255, 250, 250);
+  }
+  .Nav a:hover{
+    background-color: rgb(34, 34, 240);
+    color: white;
+  }
+  }
+
+  .Nav details a{
+    font-family: 'Ysabeau SC', sans-serif;
   }
   
 
   
   .Nav a{
       position: relative;
-      background-color: rgb(25, 71, 238);
+      background-color: rgba(25, 238, 36, 0.598);
       text-align: center;
       padding: 10px;
       margin-top: 5px;
@@ -34,20 +44,38 @@ body {
       font-size: 1.2em;
   }
   
-  .Nav  a:hover{
-      color: red;
-  }
-  
+
   
   
   /* TOP*/
     .top-info{
-      border-radius: 300px;
       position: relative;
       margin-bottom: 500px;    
       top: 50px;
-      background-color: white;
+
+
   }
+
+  .heading{
+    color: rgb(41, 90, 238);
+    position: absolute;
+    top: 0;
+    margin-left: 50px;
+    margin-top: -20px;
+    font-size: 2.5em;
+    transform: rotate(10deg);
+    text-shadow: -1px -1px 1px rgb(246, 246, 246);
+    font-family: 'Rock Salt', cursive;
+}
+
+  .background{
+    height: 70%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute
+  }
+
   
   .img-logo img{
       height: auto;
@@ -74,21 +102,27 @@ body {
       text-align: center;
       font-size: 2em;
       z-index: 1;
-      color: white;
-  }
+      color: rgb(6, 71, 234);
+      text-shadow: 1px -2px 1px rgb(255, 255, 255);
+      font-family: 'Young Serif', serif;
+
+    }
   .list-service{
   position: relative;
   top: 120px;
   z-index: 1;
   }
   .list-service ol li{
-      color: rgb(0, 26, 255);
       display: flex;
       justify-content: center;
       background-color: rgba(0, 0, 0, 0.142);
-      font-size: 1.2em;
+      font-size: 1.5em;
       padding: 10px;
-      margin-top: 20px;
+      margin-top: 6px;
+      text-shadow: 2px 3px 1px blue;
+      color: rgb(252, 252, 255);
+      font-family: 'Ysabeau SC', sans-serif;
+
       
   }
   
@@ -115,29 +149,33 @@ body {
       justify-content: center;
       font-size: 2em;
       position: relative;
-      color: white;
+      color: rgb(6, 71, 234);
+      text-shadow: 1px 2px 1px rgb(255, 255, 255);
+      font-family: 'Young Serif', serif;
+
 
   }
   
   .loc-cap{
     position: relative;
-    top: 4em;
+    top: 3em;
     }
   
   .loc-cap ol li{
       display: flex;
       justify-content: center;
-      background-color: rgba(0, 0, 0, 0.142);
-        color: rgb(0, 26, 255);   
+      text-shadow: 2px -1px 1px blue;
+      color: rgb(252, 252, 255);      
        padding: 10px;
-      margin-top: 12px;
-  
+      margin-top: 6px;
+      background-color: rgba(0, 0, 0, 0.142);
       list-style-type: none;
-      font-size: 1.3em;
+      font-size: 1.5em;
+      font-family: 'Ysabeau SC', sans-serif;
       }
   
   
-  }
+  
   
   
   
@@ -146,7 +184,6 @@ body {
   .Contact-sec{
       position: relative;
       top: 500px;
-      background-color: rgba(128, 128, 128, 0.199);
       height: 360px;
       z-index: 0;
       margin-bottom: 600px;
@@ -166,14 +203,17 @@ body {
       z-index: 1;
       padding-left: 0.2em;
       position: relative;
-      color: white;
+      color: rgb(6, 71, 234);
+      text-shadow: 1px 2px 1px rgb(255, 255, 255);
+      font-family: 'Young Serif', serif;
+
 
   }
 .Contact-list{
 text-align: center;
 font-size: 140%;
 position: relative;
-top:5.3em;
+top:1em;
 
 }
 
@@ -183,6 +223,7 @@ top:5.3em;
     color: white;
     border: 1px solid blue;
     background-color: rgba(0, 32, 243, 0.516);
+    font-family: 'Ysabeau SC', sans-serif;
     
 }
   
@@ -218,7 +259,7 @@ top:5.3em;
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
     body {
-        background-color: orange;
+        background-color: white;
   }
 
 /* NAV */
@@ -265,6 +306,14 @@ top:5.3em;
     margin-bottom: 300px;
   }
 
+  .img-logo img{
+    height: auto;
+    width: 80%;
+    position: relative;
+    top: 0;
+    margin-left: 50px;
+  }
+
 
 
 /* Service */
@@ -278,27 +327,29 @@ top:5.3em;
 
 .Serive-heading h2{
     position: absolute;
-    color: white;
+    color: rgb(231, 152, 6);
     left: 0;
-    top: 30px;
-    margin-left: 6em;
+    top: 0;
+    margin-left: 2em;
     margin-top: -0.5em;
-    font-size: 2.7em;
+    font-size: 2em;
 }
 
 .list-service{
     position: relative;
     top: 30px;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 .list-service ol li{
     list-style-type: none;
     text-align: center;
-    color: rgb(0, 26, 255);  
     border: 1px solid orange;
     border-top: none;
     border-left: none;
     border-right: none;
+    background-color: rgba(0, 0, 0, 0.075);
+    
+
 }
 
 #sub-color-service{
@@ -309,8 +360,9 @@ top:5.3em;
 .img2 img{
     height: auto;
     width: 100%;
-    position: relative;
-    margin-left: 20px;
+    position: absolute;
+    margin-left:200px;
+    top: -20px;
 }
 
 /* MIDDLE */
@@ -323,7 +375,7 @@ top:5.3em;
     display: flex;
     justify-content: center;
     font-size: 3em;
-    color: white;
+    color: rgb(231, 152, 6);
 
 }
 
@@ -358,7 +410,7 @@ top:5.3em;
     display: flex;
 position: relative;
 left: 3em;
-color: white;
+color: rgb(231, 152, 6);
 
 }
 
