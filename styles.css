@@ -101,14 +101,14 @@
       height: auto;
       width: 100%;
       position: absolute;
-      z-index: -1;
+      z-index: 1;
   }
   
   .Serive-heading{
       position: relative;
       text-align: center;
       font-size: 2em;
-      z-index: 1;
+      z-index: 9;
       color: rgb(6, 71, 234);
       text-shadow: 1px -2px 1px rgb(255, 255, 255);
       font-family: 'Young Serif', serif;
@@ -145,7 +145,7 @@
     top: 5px;
     margin-left: 6px;
   }
-  
+
   
   /* MIDDLE */
   
