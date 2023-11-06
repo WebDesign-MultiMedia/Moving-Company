@@ -1,7 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    body{
-    }
+  
 
     /* NAV*/
   .Nav{
@@ -25,8 +24,7 @@
   }
   }
 
-  .Nav details a{
-  }
+
   
 
   
@@ -344,9 +342,20 @@ top:2em;
     height: auto;
     width: 80%;
     position: relative;
-    top: 0;
+    top: 10;
     margin-left: 50px;
   }
+
+  .background{
+    height: 130%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.414);
+    z-index: -1;
+  }
+
 
 
 
@@ -355,24 +364,28 @@ top:2em;
 .Service-sec{
     display: inline-flex;
     justify-content: space-around;
+
     position: relative;
-    margin-bottom: 650px;
+    top: 100px;
+    background-color: rgba(255, 166, 0, 0.414);
+    z-index: 1;
 }
 
 .Serive-heading h2{
     position: absolute;
     color: rgb(231, 152, 6);
     left: 0;
-    top: 0;
-    margin-left: 2em;
+    right: 0;
+    margin-left: 5em;
     margin-top: -0.5em;
     font-size: 2em;
 }
 
 .list-service{
     position: relative;
-    top: 30px;
-    font-size: 1.5em;
+    top: 5px;
+    font-size: 1.2em;
+    margin-right: 50px;
 }
 .list-service ol li{
     list-style-type: none;
@@ -381,6 +394,8 @@ top:2em;
     border-top: none;
     border-left: none;
     border-right: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
     background-color: rgba(0, 0, 0, 0.075);
     
 
@@ -395,8 +410,8 @@ top:2em;
     height: auto;
     width: 100%;
     position: absolute;
-    margin-left:200px;
-    top: -20px;
+    margin-left:280px;
+    top: 10px;
 }
 
 /* MIDDLE */
@@ -405,31 +420,71 @@ top:2em;
 
 }
 
+.Contact-sec{
+    position: relative;
+    top: 400px;
+    margin-bottom: 200px;
+    background-color: rgba(255, 166, 0, 0.414);
+    z-index: 1;
+}
+
 .Location-heading h2{
     display: flex;
     justify-content: center;
     font-size: 3em;
     color: rgb(231, 152, 6);
-
-}
-
-.loc-cap ol li{
-    text-align: center;
     position: relative;
-    z-index: -1;
-    display: inline;
-    padding: 20px;
-    top: 170px;
-    margin-left: 1px;
-  color: rgb(0, 26, 255);  
-  border: 1px solid blue;
-  border-top: none;
-  background-color: rgba(128, 128, 128, 0.194);
-}
+    top: -110px;
 
-.loc-cap li{
-    font-size: 1.5em;
+    
+
 }
+.loc-cap{
+    position: relative;
+    top: 2em;
+    }
+  
+  .loc-cap ol li{
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      font-size: 1.9em;
+      position: relative;
+      text-decoration: none;
+      font-family: Nanum Pen Script;
+
+      z-index: -1;
+      display: inline;
+      padding: 20px;
+      top: -58px;
+      margin-left: 1px;
+    font-size: 1.9em;
+
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.075);
+    
+      }
+
+      .loc-cap li{
+        position:absolute;
+        padding: 1px;
+        margin: 10px;
+        color: white;
+        border: 1px solid blue;
+        background-color: rgba(0, 32, 243, 0.516);
+      
+      }
+
+
+
+
 
 /* BOTTOM */
 .img4 img{
@@ -450,18 +505,20 @@ color: rgb(231, 152, 6);
 
 .Contact-list{
     position: absolute;
-    left: 70px;
+    font-size: 5vw;
+    margin-left: 20px;
+    top: 4em;
 }
 
 .Contact-list a{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.42);
     color: blue;
     border: none;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .Contact-list a:hover{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.526);
 }
 
 
