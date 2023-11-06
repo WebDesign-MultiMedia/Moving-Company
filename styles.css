@@ -1,7 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body{
-        background-color: rgb(255, 255, 255);
     }
 
     /* NAV*/
@@ -13,10 +12,10 @@
  
   
   .Nav summary{
-      color: rgb(31, 46, 253);
+      color: rgb(223, 9, 9);
       font-size: 2em;
-      font-family: 'Ysabeau SC', sans-serif;
-  }
+      font-family: Kay Pho du;
+    }
   .Nav summary:hover{
       color: orange;
   }
@@ -27,7 +26,6 @@
   }
 
   .Nav details a{
-    font-family: 'Ysabeau SC', sans-serif;
   }
   
 
@@ -60,14 +58,16 @@
   }
 
   .heading{
-    color: rgb(41, 90, 238);
+    color: rgb(48, 69, 230);
     position: absolute;
     top: 0;
     margin-left: 50px;
-    margin-top: -20px;
-    font-size: 3em;
+    margin-top: -47px;
+    font-size: 4.5em;
     transform: rotate(1deg);
     text-shadow: -1px -1px 1px rgb(246, 246, 246);
+    font-family: Dancing Script;
+
 }
 
   .background{
@@ -76,7 +76,7 @@
     top: 0;
     width: 100%;
     position: absolute;
-    background-color: rgb(5, 4, 1);
+    background-color: rgba(255, 166, 0, 0.414);
     z-index: -1;
   }
 
@@ -86,6 +86,7 @@
       width: 100%;
       position: relative;
       top: 90px;
+      border-radius: 60px;
   }
   
   /* Second */
@@ -106,25 +107,28 @@
   .Serive-heading{
       position: relative;
       text-align: center;
-      font-size: 2em;
+      font-size: 2.6em;
+      top: 10px;
       z-index: 9;
       color: rgb(6, 71, 234);
       text-shadow: 1px -2px 1px rgb(255, 255, 255);
-      font-family: 'Young Serif', serif;
+      font-family: Dancing Script;
 
     }
   .list-service{
   position: relative;
-  top: 120px;
+  top: 100px;
   z-index: 1;
   }
   .list-service ol li{
       display: flex;
       justify-content: center;
-      font-size: 1.5em;
-      font-family: 'Ysabeau SC', sans-serif;
+      font-size: 1.9em;
+      font-family: Kay Pho Du;
       position: relative;
       text-decoration: none;
+      font-family: Nanum Pen Script;
+
   }
 
   .list-service li{
@@ -134,7 +138,7 @@
     color: white;
     border: 1px solid blue;
     background-color: rgba(0, 32, 243, 0.516);
-  
+
   }
 
   #sub-color-service{
@@ -168,28 +172,29 @@
   .Location-heading{
       display: flex;
       justify-content: center;
-      font-size: 2em;
+      font-size: 2.5em;
       position: relative;
       color: rgb(6, 71, 234);
       text-shadow: 1px 2px 1px rgb(255, 255, 255);
-      font-family: 'Young Serif', serif;
+      font-family: Dancing Script;
 
 
   }
   
   .loc-cap{
     position: relative;
-    top: 3em;
+    top: 2em;
     }
   
   .loc-cap ol li{
       display: flex;
       justify-content: center;
       list-style-type: none;
-      font-size: 1.8em;
+      font-size: 1.9em;
       position: relative;
       text-decoration: none;
-      
+      font-family: Nanum Pen Script;
+
       }
 
       .loc-cap li{
@@ -234,13 +239,13 @@
       position: relative;
       color: rgb(6, 71, 234);
       text-shadow: 1px 2px 1px rgb(255, 255, 255);
-      font-family: 'Young Serif', serif;
+      font-family: Dancing Script;
 
 
   }
 .Contact-list{
 text-align: center;
-font-size: 140%;
+font-size: 8vw;
 position: relative;
 top:2em;
 
@@ -252,7 +257,8 @@ top:2em;
     color: white;
     border: 1px solid blue;
     background-color: rgba(0, 32, 243, 0.516);
-    
+    font-family: Nanum Pen Script;
+
 }
   
   .Contact-sec a:hover{
