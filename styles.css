@@ -1,11 +1,13 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
+  body{
+    background-color: rgba(255, 166, 0, 0.414);
+
+  }
 
     /* NAV*/
-.Nav2{
+.Nav2 details{
     display: none;
-    position: absolute;
 }
 
     .Nav{
@@ -79,7 +81,6 @@
     top: 0;
     width: 100%;
     position: absolute;
-    background-color: rgba(255, 166, 0, 0.414);
     z-index: -1;
   }
 
@@ -97,7 +98,6 @@
   .Service-sec{
       position: relative;
       top: 100px;
-      background-color: rgba(255, 166, 0, 0.414);
       z-index: 1;
 
   }
@@ -160,7 +160,6 @@
       position: relative;
       top: 400px;
       margin-bottom: 200px;
-      background-color: rgba(255, 166, 0, 0.414);
       z-index: 1;
   }
   
@@ -224,7 +223,6 @@
       height: 360px;
       z-index: 0;
       margin-bottom: 600px;
-      background-color: rgba(255, 166, 0, 0.414);
   }
   
   .img4 img{
@@ -306,7 +304,7 @@ top:2em;
 }
 .Nav{
     position: fixed;
-    z-index: 1;
+    z-index: 9;
 }
 
 
@@ -356,7 +354,7 @@ top:2em;
   }
 
   .background{
-    height: 130%;
+    height: 160%;
     left: 0;
     top: 0;
     width: 100%;
@@ -437,6 +435,16 @@ top:2em;
     z-index: 1;
 }
 
+
+
+
+/* LOCATION */
+.Location-sec {
+
+    width: 100%;
+    background-color: rgba(255, 166, 0, 0.414);
+    z-index: -1;
+}
 .Location-heading h2{
     display: flex;
     justify-content: center;
@@ -457,7 +465,6 @@ top:2em;
       display: flex;
       justify-content: center;
       list-style-type: none;
-      font-size: 1.9em;
       position: relative;
       text-decoration: none;
       font-family: Nanum Pen Script;
@@ -467,17 +474,9 @@ top:2em;
       padding: 2px;
       top: -58px;
       margin-left: 1px;
-    font-size: 1.9em;
+    font-size: 4.7vw;
 
-    list-style-type: none;
-    text-align: center;
-    border: 1px solid orange;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    background-color: rgba(0, 0, 0, 0.075);
+   
     
       }
 
@@ -485,10 +484,14 @@ top:2em;
         position:absolute;
         padding: 1px;
         margin: 10px;
-        color: white;
-        border: 1px solid blue;
-        background-color: rgba(0, 32, 243, 0.516);
-      
+       list-style-type: none;
+        text-align: center;
+        border: 1px solid orange;
+        border-left: none;
+        border-right: none;
+
+        background-color: rgba(255, 255, 255, 0.42);
+        color: blue;
       }
 
 
@@ -507,7 +510,9 @@ top:2em;
 .Contact-heading h2{
     display: flex;
 position: relative;
-left: 3em;
+left: 1em;
+top: -0.6em;
+font-size: 11vw;
 color: rgb(231, 152, 6);
 
 }
@@ -555,13 +560,18 @@ color: rgb(231, 152, 6);
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+
+
+    body{
+        background-color: red;
+    }
+
     .background{
-        background-color: rgba(255, 166, 0, 0.628);
         height: 5000px;
     }
 
     .Service-sec {
-        background-color: transparent;
+        background-color: red;
     }
 /* Navigation */
 .Nav {
@@ -660,16 +670,63 @@ color: rgb(231, 152, 6);
 
   }
  
+
+
+
+
+
+
+
+
+
+
+
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     body {
-        background-color: black;
+        background-color: rgba(255, 166, 0, 0.414);
     }
 
-
+    .loc-cap {
+        position: relative;
+        top: 14vw;
+    }
+.loc-cap ol li{
+    font-size: 6vw;
+}
+    .Location-sec{
+        position: relative;
+        margin-bottom: 700px;
+    }
 } 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     body {
@@ -678,7 +735,7 @@ color: rgb(231, 152, 6);
     position: fixed;
     right: 0;
     left: 0;
-    background-color: rgba(255, 166, 0, 0.628);
+    background-color: rgba(255, 255, 255, 0.628);
 }
 
 .background{
@@ -715,15 +772,21 @@ color: rgb(231, 152, 6);
   /* Navigation */
 .Nav2 {
     position: fixed;
+display: inherit;
     
 }
 
-.Nav2 summary{
+.Nav2 summary {
     font-size: 3.5em;
+    color: blue;
+}
+
+.Nav2 summary:hover{
+    color: red;
 }
 
 .Nav2 details a{
-    font-size: 2em;
+    font-size: 2.4vw;
     display: inline-flex;
     position: relative;
     left: 20vw;
@@ -735,14 +798,104 @@ color: rgb(231, 152, 6);
     background-color: rgba(0, 0, 255, 0.874);
     height: 1000px;
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    
+    
 }
 .Nav2 a:hover{
-    background-color: red;
+color: red;
 }
-
 
 .Service-sec, .Location-sec, .Contact-sec{
     display: none;
 }
+
+
+
+
+
+/* SERVICE PAGE */
+.Service-page{
+    background-color: rgba(255, 166, 0, 0.557);
+}
+
+
+.Service-sec1{
+    position: relative;
+    top: 60px;
+}
+
+.Service-sec1 .list-service li {
+    width: 35%;
+    position: relative;
+    left: 60px;
+    top: 100px;
+    font-size: 4vw;
+    background-color: rgba(0, 0, 0, 0.203);
+    
+}
+
+.Service-sec1 .Serive-heading h2{
+    color: blue;
+    font-size: 13vw;
+    position: absolute;
+    margin-left: 350px;    
+    top: 0.5em;
+}
+
+.Service-sec1 .img2 img{
+    height: auto;
+    max-width: 50%;
+position: fixed;
+left: 20vw;
+top: 10vw;
+}
+
+
+
+
+
+
+
+/* LOCATION PAFE */
+
+.Location-sec2{
+    position: relative;
+    z-index: -9;
+}
+
+.Location-sec2 .Location-heading h2{
+    position: relative;
+    top: 20px;
+}
+
+.Location-sec2 .loc-cap .r0
+    {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 3vw;
+
+}
+
+.Location-sec2{
+    background-color: rgba(255, 166, 0, 0.557);
+}
+
+.Location-sec2 .loc-cap div{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
   }
