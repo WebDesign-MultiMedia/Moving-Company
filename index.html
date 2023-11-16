@@ -7,69 +7,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/67b72f9a2a.js" crossorigin="anonymous"></script>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bodoni+Moda:opsz,wght@6..96,700&family=Dancing+Script:wght@700&family=Kay+Pho+Du:wght@700&family=Marck+Script&family=Nanum+Pen+Script&family=Oswald:wght@500&family=Playfair+Display:wght@400;600&family=Rubik:wght@600&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
 
-  <!--NAV-Section-->
-<div class="Nav" >
-  <details>
-    <summary>Menu</summary>
-  <a href="#Home">Home</a>
+
+
+
+  <!--NAV BAR-->
+<div class="topNav">
+  
+<a href="#Home" class="active">Logo</a>
+
+<div id="Links"> 
   <a href="#Services">Services</a>
   <a href="#Location">Location</a>
   <a href="#Contact">Contact</a>
 
-  </details>
 </div>
-<!--NAV FOR BIG SCREEN-->
-<div style="display: fixed;" class="Nav2">
-  <details>
-    <summary>Menu</summary>
-    
-  <a href="index.html">Home</a>
-  <a href="Services.html">Services</a>
-  <a href="Location.html">Location</a>
-  <a href="Contact.html">Contact</a>
 
-  
-  </details> 
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+</a>
 </div>
+
+
+
+
+
+
+
+
 
   <!--TOP -->
-  <div class="background"  id="Home"></div>
-
-    <div class="top-info">
-    <div class="img-logo"><img src="PAGE-1-1-1-1.png" alt=""></div>
-    <div class="heading" ><h2>Junior's</h2></div>
-    <div></div>
-    <div></div>
-    <div></div>
+<br>
+<br>
+<br>
+<br>
+  <form action="https://public.herotofu.com/v1/b9bf31e0-8496-11ee-8033-27354366f574" method="post" accept-charset="UTF-8">
+    <div>
+      <label for="name">Your Name</label>
+      <input name="Name" id="name" type="text" required />
+    </div>
+    <div>
+      <label for="email">Your Email</label>
+      <input name="Email" id="email" type="email" required  />
+    </div>
+    <div>
+      <label for="Quote/Questions">Ask me anything!</label>
+      <textarea name="message" id="message" cols="30" rows="10" placeholder="You can ask how much would certain services cost or a combination of services.."></textarea>
   </div>
-   
 
-  <!--SERVICE-->
+    <div>
+      <input type="submit" value="submit" />
+      <div style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;" aria-hidden="true">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" />
+      </div>
+    </div>
+  </form>
 
-<div class="Service-sec" >
-  <div class="img2" ><img src="Group-113.png" alt=""></div>
-  <div class="Serive-heading"id="Services" ><h2>Services</h2></div>
+
+
+
+
+  <!--SERVICE
+
+<div class="Service-Section">
+  <div class="img1"><img src="" alt=""></div>
+  <div class="Header1"><h2 id="Services">Services</h2></div>
   <div class="list-service">
-    <ol>
-      <li id="center">Assembly</li>
-      <li id="center">T.V. Mounting</li>
-      <li id="list-1">Labor <span id="sub-color-service"> (Loading/Unloading)</span></li>
-      <li>Dump Run</li>
-      <li>Internal Moves</li>
-      <li>Furniture Disposal</li>
-      <li>Packing</li>
-    </ol>
+      <div class="s">Assembly</div>
+      <div class="s">T.V Mounting</div>
+      <div class="s">Labor</div>
+      <div class="s">Dump run</div>
+      <div class="s">Internal Moves</div>
+      <div class="s">Furniture Disposal</div>
+      <div class="s">Packing</div>
   </div>
-</div>
+</div> -->
 
 
  
@@ -78,31 +94,53 @@
 
 
 
-<!--MIDDLE-->
-<div class="Location-sec">
-  <div class="img3"><img src="Location-img.png" alt=""></div>
-  <div class="Location-heading" id="Location"><h2>Location</h2></div>
-  <div class="loc-cap">
-  <ol>
-    <li>Local Movers</li>
-    <li>Out of State Movers</li>
-    <li>Same Day Movers</li>
-  </ol>
+<!--LOCATION
+<div class="Location-Section">
+  <div class="img2"><img src="" alt=""></div>
+  <div class="Header2"><h2 id="Location">Location</h2></div>
+  <div class="Location-list">
+    <di class="">Residential Movers</di>
+    <div class="">Commercial Movers</div>
+    <div class="">Furniture Movers</div>
+    <div class="">Local Movers</div>
+    <div class="">Last Minute Movers</div>
+    <div class="">Long Distance Movers</div>
+    <div class="">Same Day Mover</div>
   </div>
 </div>
 
 
+<div class="Location-Section">
+  <div class="img2"><img src="" alt=""></div>
+  <div class="Header2"><h2 id="Location">Location</h2></div>
+  <div class="Location-list">
+    <di class="">Local Movers</di>
+    <div class="">Out of State Movers</div>
+    <div class="">Same Day Mover</div>
+  </div>
+</div> -->
 
-<!--BOTTOM-->
-<div class="Contact-sec">
-  <div class="img4"><img src="origin (1).png" alt=""></div>
-  <div class="Contact-heading" id="Contact"><h2>Contact</h2></div>
-  <div class="Contact-list"> 
-  <a href="mailto:juniorsmovingservices@gmail.com"> Juniorsmovingservices@gmail.com </a> <br> <br>
-  <a href="tel:3473608820"> (347) 360-8820 </a>
-</div>
 
-</div>
+
+
+
+
+
+<!--CONTACT
+<div class="Contact-Section">
+  <div class="img3"><img src="" alt=""></div>
+  <div class="Header3"><h2 id="Contact">Contact</h2></div>
+  <div class="Contact-list">
+    <div><a href="mailto:juniorsmovingservices@gmail.com"> Juniorsmovingservices@gmail.com </a></div>
+    <div> <a href="tel:3473608820"> (347) 360-8820 </a></div>
+  </div>
+</div> -->
+
+
+
+
+
+
 
 
 <!--QUESTION FORM-->
@@ -123,6 +161,18 @@
       <li>Instagram</li>
     </ol>
   </footer> -->
-</body>
 
+  <script>
+    function myFunction() {
+      var x = document.getElementById("Links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+
+</body>
 </html>
