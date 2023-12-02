@@ -6,7 +6,7 @@ body{
 
 .backimg{
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 0;
   max-width: 100%;
   height: auto;
@@ -16,35 +16,38 @@ body{
 .title-1{
   position: relative;
   top: 130px;
-  left: -100px;
-  transform: skew(-7deg, 20deg);
+  margin-left: -140px;
+  transform: skew(-7deg, 10deg);
   display: flex;
   justify-content: center;
   flex-direction: row;
-  color: #f96d00;
-  font-size: 15vw;
+  color: orange;
+  font-size: 18vw;
+  filter: drop-shadow(1px 1px 1px black)
 }
 .title-2{
   position: relative;
-  top: 70px;
-  right: -100px;
+  top: 130px;
+  margin-right: -120px;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  font-size: 15vw;
-  color: #f96d00;
-  transform: skew(1deg, -20deg);
+  font-size: 18vw;
+  color: orange;
+  transform: skew(1deg, -10deg);
+  filter: drop-shadow(1px 1px 1px black)
 
 }
 
 .title-3{
   position: relative;
-  top: 400px;
+  top: 450px;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  font-size: 15vw;
-  color: #f96d00;
+  font-size: 20vw;
+  color: orange;
+  filter: drop-shadow( 6px 5px 20px white);
 
 
 
@@ -71,12 +74,13 @@ body{
 #Links a{
   text-align: right;
   position: relative;
-  right: -7em;
-  top: 10px;
+  top: 30px;
   display: flex;
-  margin: -15px;
-  justify-content: center;
-  
+  margin: -10px;
+  justify-content: space-between;
+  display: inline;
+  padding: 30px;
+  font-size: 1.5em;
 }
 
 
@@ -84,7 +88,7 @@ body{
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 6vw;
   display: block;
 
 }
@@ -134,31 +138,39 @@ body{
 
 .Service-Section{
   position: relative;
+  top: 50px;
 
 }
 .Service-Section .Header1 {
   position: relative;
   font-size: 10vw;
   text-align: center;
-  top: 100px;
+  top: 20px;
   color: #ffa500;
-  filter: drop-shadow(16px 7px 8px black);
+  filter: drop-shadow(16px 7px 30px white);
 }
 .Service-Section .list-service{
   color: #f2f2f2;
   position: relative;
   top:200px;
   text-align: center;
-  font-size: 1.3em;
+  font-size: 7vw;
   word-spacing: 10px;
 letter-spacing: 4px;
-
+margin-left: 3em;
+box-shadow: 2px 2px 20px white;
 }
+
+.Service-Section .s:nth-child(2){
+  position: relative;
+  margin-left: 37px;
+}
+
 .Service-Section .img1{
   position: fixed;
   height: auto;
   width: 100%;
-  top: 100px;
+  top: 120px;
   z-index: -1;
   filter: drop-shadow( 16px 1px 100px rgb(255, 166, 0));
 
@@ -181,19 +193,21 @@ letter-spacing: 4px;
   position: relative;
   font-size: 10vw;
   text-align: center;
-  top: 10px;
+  top: 70px;
   color: orange;
-  filter: drop-shadow(10px 8px 8px rgb(241, 241, 241));
+  filter: drop-shadow(10px 8px 30px rgb(241, 241, 241));
 }
 
 .Location-Section .Location-list{
   color: #f2f2f2;
   position: relative;
-  top: -20px;
+  top: 43px;
   text-align: center;
   font-size: 1.3em;
   word-spacing: 10px;
 letter-spacing: 4px;
+padding: 20px;
+box-shadow: 2px 2px 20px white;
 }
 
 .Location-list .x{
@@ -204,7 +218,7 @@ letter-spacing: 4px;
   position: fixed;
   height: auto;
   width: 100%;
-  bottom: 0;
+  bottom: -70px;
   z-index: -1;
   margin-bottom: -20px;
   filter: drop-shadow( 16px 1px 100px rgb(255, 166, 0));
