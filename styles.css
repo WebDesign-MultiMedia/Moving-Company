@@ -10,6 +10,8 @@ body{
   left: 0;
   max-width: 100%;
   height: auto;
+
+  filter: drop-shadow( 16px 1px 100px rgb(255, 166, 0));
 }
 .title-1{
   position: relative;
@@ -66,25 +68,37 @@ body{
 
 }
 
+#Links a{
+  text-align: right;
+  position: relative;
+  right: -7em;
+  top: 10px;
+  display: flex;
+  margin: -15px;
+  justify-content: center;
+  
+}
+
+
 .topNav a{
-  color: red;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
+
 }
 
 .topNav a.icon{
-  background-color: black;
   display: block;
   position: absolute;
-  right: 0;
+  right: 5px;
   top: 0;
 }
 
 .topNav a:hover{
   background-color: rgba(0, 0, 255, 0);
-  color: yellow;
+  color: orange;
 }
 .active{
   background-color: rgba(255, 192, 203, 0);
@@ -93,8 +107,7 @@ body{
 
 /* NAV LOGO */
 .img-truck {
-  height: 10vw;
-  color:  white;
+  height: 8vw;
   position: absolute;
  }
 
@@ -128,7 +141,7 @@ body{
   font-size: 10vw;
   text-align: center;
   top: 100px;
-  color: orange;
+  color: #ffa500;
   filter: drop-shadow(16px 7px 8px black);
 }
 .Service-Section .list-service{
@@ -147,6 +160,8 @@ letter-spacing: 4px;
   width: 100%;
   top: 100px;
   z-index: -1;
+  filter: drop-shadow( 16px 1px 100px rgb(255, 166, 0));
+
 }
 
 .list-service .x{
@@ -192,6 +207,8 @@ letter-spacing: 4px;
   bottom: 0;
   z-index: -1;
   margin-bottom: -20px;
+  filter: drop-shadow( 16px 1px 100px rgb(255, 166, 0));
+
 }
 
 
