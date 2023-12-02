@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bodoni+Moda:opsz,wght@6..96,700&family=Dancing+Script:wght@700&family=Kay+Pho+Du:wght@700&family=Marck+Script&family=Nanum+Pen+Script&family=Oswald:wght@500&family=Playfair+Display:wght@400;600&family=Rubik:wght@600&display=swap" rel="stylesheet">
-  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/67b72f9a2a.js" crossorigin="anonymous"></script>
+
     
     
     <title>Document</title>
 </head>
-<body class="Location-pages">
+<body>
+
+    <!--NAV BAR-->
+<div class="topNav">
+  <a href="index.html" class="active"><img src="truck-front-solid.svg" alt="" class="img-truck"></a>
+  
+  <div id="Links"> 
+    <a href="Services.html">Services</a>
+    <a href="Location.html">Location</a>
+    <a href="Contact.html">Contact</a>
+  
+  </div>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+  </a>
+  </div>
 
 <!--LOCATION-->
 <div class="Location-Section">
-  <div class="img2"><img src="" alt=""></div>
+  <div ><img class="img2" src="image2.png" alt=""></div>
   <div class="Header2"><h2 id="Location">Location</h2></div>
   <div class="Location-list">
-    <di class="">Residential Movers</di>
+    <di class="x">Residential Movers</di>
     <div class="">Commercial Movers</div>
-    <div class="">Furniture Movers</div>
+    <div class="x">Furniture Movers</div>
     <div class="">Local Movers</div>
-    <div class="">Last Minute Movers</div>
+    <div class="x">Last Minute Movers</div>
     <div class="">Long Distance Movers</div>
-    <div class="">Same Day Mover</div>
+    <div class="x">Same Day Mover</div>
   </div>
 </div>
 
@@ -40,5 +54,16 @@
   </div>
 </div> -->
   
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("Links");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 </body>
 </html>

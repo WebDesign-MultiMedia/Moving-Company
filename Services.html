@@ -4,29 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/67b72f9a2a.js" crossorigin="anonymous"></script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Bodoni+Moda:opsz,wght@6..96,700&family=Dancing+Script:wght@700&family=Kay+Pho+Du:wght@700&family=Marck+Script&family=Nanum+Pen+Script&family=Oswald:wght@500&family=Playfair+Display:wght@400;600&family=Rubik:wght@600&display=swap" rel="stylesheet">
 
   <title>Document</title>
 </head>
 <body>
+
+  <!--NAV BAR-->
+  <div class="topNav">
+    <a href="index.html" class="active"><img src="truck-front-solid.svg" alt="" class="img-truck"></a>
+    
+    <div id="Links"> 
+      <a href="Services.html">Services</a>
+      <a href="Location.html">Location</a>
+      <a href="Contact.html">Contact</a>
+    
+    </div>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>
+
   <!--SERVICE-->
 
   <div class="Service-Section">
-    <div class="img1"><img src="" alt=""></div>
+    <div><img class="img1" src="Group-113.png" alt=""></div>
     <div class="Header1"><h2 id="Services">Services</h2></div>
     <div class="list-service">
-        <div class="s">Assembly</div>
+        <div class="x">Assembly</div>
         <div class="s">T.V Mounting</div>
-        <div class="s">Labor</div>
+        <div class="x">Labor</div>
         <div class="s">Dump run</div>
-        <div class="s">Internal Moves</div>
+        <div class="x">Internal Moves</div>
         <div class="s">Furniture Disposal</div>
-        <div class="s">Packing</div>
+        <div class="x">Packing</div>
     </div>
   </div>
+
+
+
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("Links");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 
 </body>
 </html>

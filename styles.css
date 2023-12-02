@@ -1,9 +1,59 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+body{
+  background-color: #222831;
+}
+
+.backimg{
+  position: absolute;
+  top: 200px;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+}
+.title-1{
+  position: relative;
+  top: 130px;
+  left: -100px;
+  transform: skew(-7deg, 20deg);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: #f96d00;
+  font-size: 15vw;
+}
+.title-2{
+  position: relative;
+  top: 70px;
+  right: -100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 15vw;
+  color: #f96d00;
+  transform: skew(1deg, -20deg);
+
+}
+
+.title-3{
+  position: relative;
+  top: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 15vw;
+  color: #f96d00;
+
+
+
+}
+
+
+
 
 /* NAVIATION BAR */
 .topNav{
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0);
   position: fixed;
   width: 100%;
   top: 0;
@@ -33,13 +83,23 @@
 }
 
 .topNav a:hover{
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0);
   color: yellow;
 }
 .active{
-  background-color: pink;
+  background-color: rgba(255, 192, 203, 0);
 
 }
+
+/* NAV LOGO */
+.img-truck {
+  height: 10vw;
+  color:  white;
+  position: absolute;
+ }
+
+
+
 
 
 /* HOME */
@@ -60,35 +120,79 @@
 /* SERVICE */
 
 .Service-Section{
-  display: flex;
-  justify-content: center;
   position: relative;
-  margin-top: 200px;
-}
 
+}
 .Service-Section .Header1 {
   position: relative;
-  left: -2em;
-  font-size: 6vw;
+  font-size: 10vw;
+  text-align: center;
+  top: 100px;
+  color: orange;
+  filter: drop-shadow(16px 7px 8px black);
 }
+.Service-Section .list-service{
+  color: #f2f2f2;
+  position: relative;
+  top:200px;
+  text-align: center;
+  font-size: 1.3em;
+  word-spacing: 10px;
+letter-spacing: 4px;
+
+}
+.Service-Section .img1{
+  position: fixed;
+  height: auto;
+  width: 100%;
+  top: 100px;
+  z-index: -1;
+}
+
+.list-service .x{
+  color: orange;
+}
+
+
+
+
 
 /* LOCATION */
 
-.Location-Section{
-  position: relative;
-  margin-top: 200px;
-  right: 20px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
+
 .Location-Section .Header2{
+
+
   position: relative;
-  right: -2em;
-  font-size: 6vw;
+  font-size: 10vw;
+  text-align: center;
+  top: 10px;
+  color: orange;
+  filter: drop-shadow(10px 8px 8px rgb(241, 241, 241));
 }
 
+.Location-Section .Location-list{
+  color: #f2f2f2;
+  position: relative;
+  top: -20px;
+  text-align: center;
+  font-size: 1.3em;
+  word-spacing: 10px;
+letter-spacing: 4px;
+}
 
+.Location-list .x{
+  color: orange;
+}
+
+.Location-Section .img2{
+  position: fixed;
+  height: auto;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+  margin-bottom: -20px;
+}
 
 
 
