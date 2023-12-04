@@ -4,9 +4,10 @@ body{
   background-color: #222831;
 }
 
+
 .backimg{
   position: absolute;
-  top: 250px;
+  top: 10.5em;
   left: 0;
   max-width: 100%;
   height: auto;
@@ -15,7 +16,7 @@ body{
 }
 .title-1{
   position: relative;
-  top: 130px;
+  top: 0.9em;
   margin-left: -140px;
   transform: skew(-7deg, 10deg);
   display: flex;
@@ -27,10 +28,9 @@ body{
 }
 .title-2{
   position: relative;
-  top: 130px;
-  margin-right: -120px;
+  top: 0.9em;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-direction: row;
   font-size: 18vw;
   color: orange;
@@ -41,13 +41,13 @@ body{
 
 .title-3{
   position: relative;
-  top: 450px;
+  top: 3.4em;
   display: flex;
   justify-content: center;
   flex-direction: row;
   font-size: 20vw;
   color: orange;
-  filter: drop-shadow( 6px 5px 20px white);
+  filter: drop-shadow( 1px 1px 1px black);
 
 
 
@@ -71,18 +71,32 @@ body{
 
 }
 
+
+
 #Links a{
-  text-align: right;
+  text-align: center;
   position: relative;
   top: 30px;
   display: flex;
-  margin: -10px;
-  justify-content: space-between;
-  display: inline;
-  padding: 30px;
+  margin: 10px;
+  margin-left: 10em;
+  justify-content:center;
+  display: flex;
+  flex-direction: row;
   font-size: 1.5em;
+  background-color:rgba(255, 166, 0, 0.628);
+  box-shadow: -4px 7px 3px rgba(0, 0, 0, 0.627);
+  width: 20%;
+  height: 10%;
+  text-shadow: 1px 2px 6px black;
+
 }
 
+#Links a:hover{
+  background-color:rgba(255, 166, 0, 0.879);
+  border: 0.5px solid black;
+
+}
 
 .topNav a{
   color: white;
@@ -90,7 +104,6 @@ body{
   text-decoration: none;
   font-size: 6vw;
   display: block;
-
 }
 
 .topNav a.icon{
@@ -101,8 +114,7 @@ body{
 }
 
 .topNav a:hover{
-  background-color: rgba(0, 0, 255, 0);
-  color: orange;
+  color: white;
 }
 .active{
   background-color: rgba(255, 192, 203, 0);
@@ -145,14 +157,14 @@ body{
   position: relative;
   font-size: 10vw;
   text-align: center;
-  top: 20px;
+  top: -1em;
   color: #ffa500;
   filter: drop-shadow(16px 7px 30px white);
 }
 .Service-Section .list-service{
   color: #f2f2f2;
   position: relative;
-  top:200px;
+  top: 4em;
   text-align: center;
   font-size: 7vw;
   word-spacing: 10px;
@@ -170,7 +182,7 @@ box-shadow: 2px 2px 20px white;
   position: fixed;
   height: auto;
   width: 100%;
-  top: 120px;
+  top: 3em;
   z-index: -1;
   filter: drop-shadow( 16px 1px 100px rgb(255, 166, 0));
 
@@ -193,7 +205,7 @@ box-shadow: 2px 2px 20px white;
   position: relative;
   font-size: 10vw;
   text-align: center;
-  top: 70px;
+  top: 0em;
   color: orange;
   filter: drop-shadow(10px 8px 30px rgb(241, 241, 241));
 }
@@ -201,7 +213,7 @@ box-shadow: 2px 2px 20px white;
 .Location-Section .Location-list{
   color: #f2f2f2;
   position: relative;
-  top: 43px;
+  top: -1em;
   text-align: center;
   font-size: 1.3em;
   word-spacing: 10px;
@@ -232,8 +244,9 @@ box-shadow: 2px 2px 20px white;
 /* CONTACT */
 .Contact-Section{
   position: relative;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 100px;
+  height: 250px;
 
 }
 
@@ -245,10 +258,38 @@ box-shadow: 2px 2px 20px white;
 }
 
 .Header3{
-  font-size: 6vw;
+  color: orange;
+  filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+
 }
 
+.Contact-Section #Contact{
+  font-size: 11.5vw;
+}
 
+.Contact-list a{
+  font-size: 6vw;
+  color: white;
+  position: relative;
+  
+}
+
+.Contact-list a:hover{
+  color: orange;
+}
+
+.Contact-Section {
+background-color: rgba(0, 0, 0, 0.293);
+filter: drop-shadow( 16px 1px 100px rgb(255, 166, 0));
+
+}
+
+.img5{
+  width: 100%;
+  position: fixed;
+  top: 22em;
+  filter: sepia(100%);
+}
 
 
 
